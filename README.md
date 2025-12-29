@@ -8,11 +8,8 @@ It demonstrates an end-to-end BI workflow: data extraction - cleaning - modeling
 Tools & Technologies
 
 - PostgreSQL – Data cleaning, transformation, and querying
-
 - Power BI – Dashboard design & interactive visuals
-
 - DAX – KPI calculations and analytical measures
-
 - SQL – ETL processing and data preparation
 
 Project Overview
@@ -29,7 +26,7 @@ It provides insights into:
 
 SQL Data Cleaning (ETL Steps):
 
-Convert raw date strings into proper dates
+- Convert raw date strings into proper dates
 
 UPDATE netflix
 
@@ -37,7 +34,7 @@ SET date_added_clean = TO_DATE(date_added, 'Mon DD, YYYY')
 
 WHERE date_added ~ '^[A-Za-z]{3} [0-9]{1,2}, [0-9]{4}$';
 
-Extract movie duration (minutes)
+- Extract movie duration (minutes)
 
 UPDATE netflix
 
@@ -45,7 +42,7 @@ SET duration_minutes = CAST(REGEXP_REPLACE(duration, '[^0-9]', '', 'g') AS INT)
 
 WHERE duration ILIKE '%min%';
 
-Extract number of seasons
+- Extract number of seasons
 
 UPDATE netflix
 
@@ -60,38 +57,27 @@ KPI Cards
 
 Visuals Include
 
-Line Chart: Titles added over time
-
-Map: Titles by country
-
-Top Genres bar visual
-
-Top Directors table
+- Line Chart: Titles added over time
+- Map: Titles by country
+- Top Genres bar visual
+- Top Directors table
 
 Slicers / Filters
-
-Country
-
-Type (Movie / TV Show)
-
-Release Year
+- Country
+- Type (Movie / TV Show)
+- Release Year
 
 Key Insights
-
-Movies represent the majority of Netflix content.
-India and the USA are the top-producing countries.
-Dramas and comedies appear most frequently across titles.
-Content grew significantly from 2015 to 2020.
+- Movies represent the majority of Netflix content.
+- India and the USA are the top-producing countries.
+- Dramas and comedies appear most frequently across titles.
+- Content grew significantly from 2015 to 2020.
 
 How to Use
-
-Download the .pbix file
-
-Open in Power BI Desktop
-
-(Optional) Update PostgreSQL connection
-
-Explore the interactive dashboard
+- Download the .pbix file
+- Open in Power BI Desktop
+- (Optional) Update PostgreSQL connection
+- Explore the interactive dashboard
 
 About the Author
 
