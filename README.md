@@ -7,25 +7,25 @@ It demonstrates an end-to-end BI workflow: data extraction - cleaning - modeling
 
 Tools & Technologies
 
-PostgreSQL – Data cleaning, transformation, and querying
+- PostgreSQL – Data cleaning, transformation, and querying
 
-Power BI – Dashboard design & interactive visuals
+- Power BI – Dashboard design & interactive visuals
 
-DAX – KPI calculations and analytical measures
+- DAX – KPI calculations and analytical measures
 
-SQL – ETL processing and data preparation
+- SQL – ETL processing and data preparation
 
 Project Overview
 
 This dashboard is built using a cleaned PostgreSQL dataset of 8,000+ Netflix titles.
-
 It provides insights into:
-Movies vs. TV Shows
-Content growth over time
-Top genres
-Countries producing the most titles
-Directors with the most shows/movies
-The goal was to build a clean, professional BI dashboard suitable for real business use.
+
+- Movies vs. TV Shows
+- Content growth over time
+- Top genres
+- Countries producing the most titles
+- Directors with the most shows/movies
+- The goal was to build a clean, professional BI dashboard suitable for real business use.
 
 SQL Data Cleaning (ETL Steps):
 
