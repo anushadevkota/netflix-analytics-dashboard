@@ -1,16 +1,19 @@
 # netflix-analytics-dashboard
 
 Power BI, PostgreSQL, SQL, DAX
+
 This project analyzes Netflix’s catalog using SQL for data cleaning and Power BI for interactive visualization.
 It demonstrates an end-to-end BI workflow: data extraction - cleaning - modeling - dashboard development.
 
 Tools & Technologies
+
 PostgreSQL – Data cleaning, transformation, and querying
 Power BI – Dashboard design & interactive visuals
 DAX – KPI calculations and analytical measures
 SQL – ETL processing and data preparation
 
 Project Overview
+
 This dashboard is built using a cleaned PostgreSQL dataset of 8,000+ Netflix titles.
 It provides insights into:
 Movies vs. TV Shows
@@ -64,6 +67,7 @@ Open in Power BI Desktop
 Explore the interactive dashboard
 
 About the Author
+
 Anusha Devkota
 Moscow, Idaho
 anushadevkota09@gmail.com 
