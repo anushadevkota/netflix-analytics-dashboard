@@ -95,7 +95,7 @@ Explore the interactive dashboard
 
 About the Author
 
-Anusha Devkota
-Moscow, Idaho
-anushadevkota09@gmail.com 
+Anusha Devkota,
+Moscow, Idaho,
+anushadevkota09@gmail.com, 
 LinkedIn: (https://www.linkedin.com/in/anusha-devkota-01000b233/)
